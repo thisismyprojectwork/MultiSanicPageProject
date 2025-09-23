@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "name": "pirxcy",
+            "email": "pirxcy@pirxcy.dev",
+            "message": "pirxcy was here"
+        },
+        {
+            "name": "test",
+            "email": "test",
+            "message": "test"
+        },
+        {
+            "name": "test1",
+            "email": "test1",
+            "message": "test1"
+        }
+    ]
+}

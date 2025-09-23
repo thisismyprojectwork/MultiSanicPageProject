@@ -1,0 +1,113 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>Pirxcy's Cafe — Guest Messages</title> <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> <style> :root{ --bg: #f6f3ef; --paper:#ffffff; --ink:#2b2119; --muted:#9a8779; --coffee:#8b5e3c; --coffee-600:#704327; --radius:18px; --shadow:0 12px 30px rgba(43,33,25,.10), 0 2px 6px rgba(43,33,25,.05); --ring:0 0 0 3px rgba(139,94,60,.22); } *{box-sizing:border-box} html{scroll-behavior:smooth} body{ margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; color:var(--ink); background:linear-gradient(180deg,#faf8f6 0,#f6f3ef 60%, #efe8e1 100%); line-height:1.55; } img{max-width:100%; display:block} a{color:inherit; text-decoration:none} .container{width:min(1000px, 92%); margin-inline:auto} .section{padding: clamp(40px, 5vw, 70px) 0} .section-title{ font-weight:700; letter-spacing:.2px; font-size:clamp(26px, 3vw, 34px); margin:0 0 10px; } .section-sub{ color:var(--muted); margin:0 0 16px; font-size:clamp(14px, 1.6vw, 16px); } .pill{ display:inline-flex; align-items:center; gap:.5rem; background: #fff7f1; color: var(--coffee-600); border:1px solid #f2e3d8; padding:8px 12px; border-radius:999px; font-size:13px; font-weight:600; }
+
+    /* Nav */
+    .site-nav{
+      position:sticky; top:0; z-index:1000;
+      background:rgba(246,243,239,.7);
+      backdrop-filter:saturate(150%) blur(8px);
+      border-bottom:1px solid rgba(43,33,25,.06);
+    }
+    .nav-inner{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:16px; min-height:64px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      font-weight:800; letter-spacing:.6px;
+      font-size: clamp(18px, 2.2vw, 20px);
+    }
+    .brand .dot{width:10px; height:10px; border-radius:50%; background:var(--coffee); box-shadow:0 0 0 6px rgba(139,94,60,.18) inset}
+    .nav-links{
+      display:flex; align-items:center; gap: clamp(14px, 2vw, 26px);
+      list-style:none; margin:0; padding:0;
+    }
+    .nav-links a{
+      padding:10px 6px; color:#4a3b31; font-weight:600; letter-spacing:.2px; opacity:.9;
+    }
+    .nav-links a:hover{color:var(--coffee)}
+    .cta-nav{
+      display:inline-flex; align-items:center; gap:8px; background:var(--ink); color:#fff;
+      padding:10px 14px; border-radius:12px; font-weight:700; box-shadow:var(--shadow);
+    }
+    
+    /* Toolbar */
+    .toolbar{
+      display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin:12px 0 8px;
+    }
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:12px;
+      font-weight:700; border:1px solid #e8ddd4; background:#fff; color:#3e3027; cursor:pointer;
+      box-shadow:var(--shadow);
+    }
+    .btn:hover{border-color:#e0d2c6}
+    .muted{color:var(--muted)}
+    .right{margin-left:auto}
+    
+    /* List */
+    .list{
+      display:grid; gap:14px; list-style:none; padding:0; margin:16px 0 0;
+    }
+    .card{
+      background:var(--paper); border:1px solid rgba(43,33,25,.06); border-radius:var(--radius);
+      box-shadow:var(--shadow); padding:14px 16px;
+    }
+    .item-head{
+      display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+    }
+    .name{
+      font-weight:700; font-size:16px;
+    }
+    .email{
+      font-size:14px; color:#6f5e53;
+    }
+    .message{
+      margin-top:8px; color:#4a3b31; white-space:pre-wrap;
+    }
+    .empty, .error{
+      padding:14px 16px; border-radius:12px; background:#fff7f1; border:1px solid #f2e3d8; color:#704327;
+    }
+    
+    /* Footer */
+    footer{
+      padding:28px 0 40px; color:#65564c; border-top:1px solid rgba(43,33,25,.08);
+      background:linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.9));
+      margin-top:40px;
+    }
+    .foot{
+      display:flex; flex-wrap:wrap; align-items:center; gap:14px; justify-content:space-between;
+    }
+    .icon{
+      width:36px; height:36px; border-radius:10px; display:grid; place-items:center; background:#fff; border:1px solid #eee; color:#3c2e26;
+      box-shadow: var(--shadow);
+    }
+    
+    /* Dark mode */
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#15110e; --paper:#1b1612; --ink:#efe9e3; --muted:#b7a79c;
+      }
+      body{background: radial-gradient(1000px 500px at -10% -10%, rgba(139,94,60,.25), transparent 50%), var(--bg);}
+      .site-nav{background: rgba(21,17,14,.6); border-color: rgba(255,255,255,.06)}
+      .nav-links a{color:#e7dfd8}
+      .cta-nav{background:#f1e7de; color:#1d140f}
+      .card{background:#1d1814; border-color: rgba(255,255,255,.06)}
+      .btn{background:#221b16; border-color:#3a2e26; color:#efe9e3}
+      .empty,.error{background:#231a14; border-color:#3a2e26; color:#e9dccf}
+      footer{background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border-color: rgba(255,255,255,.06)}
+      .icon{background:#231c18; border-color:#3a2e26; color:#e8e0d8}
+    }
+    
+    </style> </head> <body> <header class="site-nav"> <div class="nav-inner container"> <a class="brand" href="index.html" aria-label="Back to Pirxcy's Cafe"> <span class="dot" aria-hidden="true"></span> Pirxcy's Cafe </a> <ul class="nav-links"> <li><a href="index.html#home">Home</a></li> <li><a href="index.html#menu">Menu</a></li> <li><a href="index.html#contact">Contact</a></li> <li><a class="cta-nav" href="#">Messages</a></li> </ul> </div> </header> <main class="section"> <div class="container"> <div class="pill">Admin</div> <h1 class="section-title">Guest Messages</h1> <p class="section-sub">This page fetches /users and lists each entry with name, email, and message.</p>
+    
+      <div class="toolbar">
+        <button id="refreshBtn" class="btn" type="button">Refresh</button>
+        <div id="status" class="muted" role="status" aria-live="polite">Loading messages…</div>
+        <div class="right muted">Total: <span id="count">0</span></div>
+      </div>
+    
+      <div id="alert" class="error" style="display:none"></div>
+    
+      <ul id="userList" class="list" aria-label="Messages list"></ul>
+    </div>
+    
+    </main> <footer role="contentinfo"> <div class="container foot"> <div class="brand"><span class="dot" aria-hidden="true"></span> Pirxcy's Cafe</div> <div class="muted">© <span id="y"></span> Pirxcy's Cafe. All rights reserved.</div> <div style="display:flex; gap:10px"> <a class="icon" href="index.html" aria-label="Back to site" title="Back to site">🏠</a> <a class="icon" href="mailto:hello@pirxcy.example" aria-label="Email" title="Email">✉️</a> </div> </div> </footer> <script> const listEl = document.getElementById('userList'); const statusEl = document.getElementById('status'); const alertEl = document.getElementById('alert'); const countEl = document.getElementById('count'); const refreshBtn = document.getElementById('refreshBtn'); document.getElementById('y').textContent = new Date().getFullYear(); function mailtoLink(email) { if (!email) return ''; const safe = String(email).trim(); return 'mailto:' + safe.replace(/\s/g, ''); } function renderList(users) { listEl.innerHTML = ''; countEl.textContent = Array.isArray(users) ? users.length : 0; if (!Array.isArray(users) || users.length === 0) { const empty = document.createElement('div'); empty.className = 'empty'; empty.textContent = 'No messages yet.'; listEl.appendChild(empty); return; } users.forEach((u, idx) => { const name = (u && u.name) ? String(u.name) : 'Anonymous'; const email = (u && u.email) ? String(u.email) : ''; const message = (u && u.message) ? String(u.message) : ''; const li = document.createElement('li'); li.className = 'card'; li.setAttribute('role', 'article'); li.setAttribute('aria-posinset', String(idx + 1)); li.setAttribute('aria-setsize', String(users.length)); const head = document.createElement('div'); head.className = 'item-head'; const nameEl = document.createElement('div'); nameEl.className = 'name'; nameEl.textContent = name; head.appendChild(nameEl); if (email) { const sep = document.createElement('span'); sep.className = 'muted'; sep.textContent = '•'; const emailEl = document.createElement('a'); emailEl.className = 'email'; emailEl.href = mailtoLink(email); emailEl.textContent = email; head.appendChild(sep); head.appendChild(emailEl); } const msg = document.createElement('p'); msg.className = 'message'; msg.textContent = message; li.appendChild(head); li.appendChild(msg); listEl.appendChild(li); }); } async function loadUsers() { statusEl.textContent = 'Loading messages…'; alertEl.style.display = 'none'; try { const res = await fetch('/users', { headers: { 'Accept': 'application/json' },method: 'POST', cache: 'no-store', credentials: 'same-origin' }); if (!res.ok) { throw new Error('Request failed: ' + res.status + ' ' + res.statusText); } const data = await res.json(); renderList(data); const now = new Date(); statusEl.textContent = 'Updated ' + now.toLocaleTimeString(); } catch (err) { renderList([]); statusEl.textContent = 'Could not load messages.'; alertEl.textContent = 'Error: ' + (err && err.message ? err.message : 'Unknown error'); alertEl.style.display = 'block'; } } refreshBtn.addEventListener('click', loadUsers); loadUsers(); </script> </body> </html>
