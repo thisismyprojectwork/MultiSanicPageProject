@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pirxcy's Cafe — Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        /* Existing CSS */
+        :root {
+            --bg: #f6f3ef;
+            --paper: #ffffff;
+            --ink: #2b2119;
+            --muted: #9a8779;
+            --coffee: #8b5e3c;
+            --coffee-600: #704327;
+            --cream: #e8dfd8;
+            --radius: 18px;
+            --shadow: 0 12px 30px rgba(43, 33, 25, 0.1), 0 2px 6px rgba(43, 33, 25, 0.05);
+            --ring: 0 0 0 3px rgba(139, 94, 60, 0.22);
+            --green: #2f855a;
+            --green-light: #9ae6b4;
+            --red: #c53030;
+            --red-light: #feb2b2;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial,
+                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: var(--ink);
+            background: linear-gradient(180deg, #faf8f6 0, #f6f3ef 60%, #efe8e1 100%);
+            line-height: 1.55;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            width: min(1200px, 92%);
+            margin-inline: auto;
+        }
+
+        .site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(246, 243, 239, 0.7);
+            backdrop-filter: saturate(150%) blur(8px);
+            border-bottom: 1px solid rgba(43, 33, 25, 0.06);
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            min-height: 64px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+            font-size: clamp(18px, 2.2vw, 20px);
+        }
+
+        .brand .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--coffee);
+            box-shadow: 0 0 0 6px rgba(139, 94, 60, 0.18) inset;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: clamp(40px, 6vw, 80px) 0;
+            background: var(--bg);
+        }
+
+        .login-card {
+            background: var(--paper);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 40px 32px;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        .login-card h2 {
+            font-weight: 700;
+            font-size: clamp(24px, 4vw, 28px);
+            margin-bottom: 24px;
+            color: var(--coffee);
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 14px;
+            color: var(--ink);
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            padding: 12px 16px;
+            border-radius: 12px;
+            border: 1px solid #e4d9cf;
+            font: inherit;
+            color: var(--ink);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: var(--coffee);
+            box-shadow: var(--ring);
+        }
+
+        button {
+            padding: 14px;
+            border-radius: 12px;
+            border: none;
+            background: var(--coffee);
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: background 0.3s ease, transform 0.15s ease;
+        }
+
+        button:hover {
+            background: var(--coffee-600);
+            transform: translateY(-2px);
+        }
+
+        .forgot {
+            margin-top: 12px;
+            font-size: 14px;
+            text-align: right;
+            color: var(--muted);
+        }
+
+        .forgot a {
+            color: var(--coffee-600);
+            font-weight: 600;
+        }
+
+        /* Notification styles */
+        .notification {
+            position: absolute;
+            top: -60px;
+            left: 0;
+            right: 0;
+            padding: 16px 20px;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            transform: translateY(-10px);
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            z-index: 10;
+        }
+
+        .notification.show {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .notification.success {
+            background-color: var(--green-light);
+            color: var(--green);
+            border: 1px solid var(--green);
+        }
+
+        .notification.error {
+            background-color: var(--red-light);
+            color: var(--red);
+            border: 1px solid var(--red);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main" class="skip">Skip to content</a>
+    <header class="site-nav">
+        <div class="nav-inner container">
+            <a class="brand" href="#home" aria-label="Pirxcy's Cafe Home">
+                <span class="dot" aria-hidden="true"></span> Pirxcy's Cafe
+            </a>
+
+            <input id="nav-toggle" type="checkbox" aria-hidden="true" />
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+            </label>
+
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="/users">Users</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Our Craft</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact" class="cta-nav">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="login-card" role="main" aria-labelledby="login-title">
+            <!-- Notification placeholder -->
+            <div id="notification" class="notification" role="alert" aria-live="assertive"></div>
+
+            <h2 id="login-title">Sign in to Pirxcy's Cafe</h2>
+            <form id="login-form" action="/login" method="POST" autocomplete="on" novalidate>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autofocus />
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required />
+
+                <button type="submit">Log In</button>
+            </form>
+            <p class="forgot">
+                <a href="/forgot-password">Forgot your password?</a>
+            </p>
+        </div>
+    </main>
+
+    <script>
+        const form = document.getElementById('login-form');
+        const notification = document.getElementById('notification');
+
+        function showNotification(message, type = 'success') {
+            notification.textContent = message;
+            notification.className = 'notification show ' + type;
+
+            // Hide after 4 seconds
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 4000);
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Disable button while processing
+            const submitButton = form.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+            submitButton.textContent = 'Logging in…';
+
+            const formData = new FormData(form);
+            const data = {
+                email: formData.get('email'),
+                password: formData.get('password')
+            };
+
+            try {
+                const response = await fetch(form.action, {
+                    method: form.method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data),
+                });
+
+                if (response.ok) {
+                    showNotification('Login successful! Redirecting...', 'success');
+                    window.location.href = '/';
+                } else {
+                        let errorMsg = `Login for ${formData.get('email')} failed.\nPlease check your credentials.`;
+                    showNotification(errorMsg, 'error');
+                }
+            } catch (error) {
+                showNotification('Network error. Please try again later.', 'error');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = 'Log In';
+            }
+        });
+    </script>
+</body>
+
+</html>

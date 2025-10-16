@@ -14,6 +14,14 @@
             "name": "test1",
             "email": "test1",
             "message": "test1"
+        },  
+        {
+            "name": "chanaya",
+            "email": "chanya@example.com",
+            "message": "testetteste",
+            "password": "1",    
+            "firstName": "Test",
+            "lastName": "User"
         }
     ]
 }

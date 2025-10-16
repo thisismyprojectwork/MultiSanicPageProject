@@ -8,13 +8,13 @@ class logs:
         self.file_name = file_name
         self.app_name = app_name
 
-        self.log_file = open(self.file_name, "w+")
+        self.log_file = open(self.file_name, "a+", encoding="utf-8")
 
     def build_message(self, message: str) -> str:
         now = datetime.now()
         formatted_time = now.strftime("%Y-%m-%d %H:%M:%S")
 
-        log = f'[{formatted_time}]["{self.app_name}"] - {message}\n'
+        log = f'[{formatted_time}]["{self.app_name}"] - {message}' + "\n"
 
         return log
 

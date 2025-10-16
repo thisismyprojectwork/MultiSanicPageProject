@@ -1,0 +1,233 @@
+[2025-10-16 11:22:37]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 11:22:39]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:22:39]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:22:39]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:24:42]["Coffee Shop"] - chanya@example.com stored
+[2025-10-16 11:24:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:24:42]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:24:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:24:59]["Coffee Shop"] - Users Viewed
+[2025-10-16 11:24:59]["Coffee Shop"] - Users Requested
+[2025-10-16 11:24:59]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:24:59]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:26:29]["Coffee Shop"] - User requested /index.html, redirecting to main page.
+[2025-10-16 11:26:29]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:26:29]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:26:29]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:26:47]["Coffee Shop"] - Error @ / - 'email'
+[2025-10-16 11:26:47]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:26:47]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:27:07]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:27:07]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:02]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 11:59:04]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:04]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:59:04]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:07]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:59:07]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:14]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:59:14]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:16]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 11:59:16]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:23]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 11:59:23]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 11:59:23]["Coffee Shop"] - Index page viewed.
+[2025-10-16 11:59:23]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:02:56]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:02:56]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:03:03]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:03:03]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:04:47]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:04:48]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:04:50]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:04:50]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:04:50]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:04:54]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:04:54]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:04:54]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:04:54]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:11:16]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:11:17]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:11:19]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:11:19]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:11:19]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:12:04]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:12:04]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:12:24]["Coffee Shop"] - Users Viewed
+[2025-10-16 12:12:24]["Coffee Shop"] - Users Requested
+[2025-10-16 12:12:24]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:12:24]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:12:26]["Coffee Shop"] - Users Requested
+[2025-10-16 12:12:41]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:12:41]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:22]["Coffee Shop"] - User requested /index.html, redirecting to main page.
+[2025-10-16 12:13:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:22]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:13:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:22]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:13:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:55]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:55]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:13:55]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:55]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:13:55]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:56]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:13:56]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:13:56]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:13:56]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:21]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:14:21]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:21]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:14:21]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:36]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:14:36]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:36]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:14:36]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:40]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:14:40]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:14:40]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:14:40]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:18:20]["Coffee Shop"] - Users Viewed
+[2025-10-16 12:18:20]["Coffee Shop"] - Users Requested
+[2025-10-16 12:18:20]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:18:20]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:18:20]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:18:20]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:21:27]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:21:27]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:21:32]["Coffee Shop"] - User requested /home, redirecting to main page.
+[2025-10-16 12:21:32]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:21:33]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:21:33]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:21:33]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:21:33]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:24:39]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:24:39]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:24:40]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:24:40]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:24:40]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:24:41]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:24:41]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:24:41]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:24:41]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:25:33]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:25:41]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:25:43]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:26:31]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:26:32]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:26:34]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:26:34]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:26:34]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:26:37]["Coffee Shop"] - chanya@example.com logged in
+[2025-10-16 12:26:37]["Coffee Shop"] - Email cookie for chanya@example.com created.
+[2025-10-16 12:26:37]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:26:37]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:26:37]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:26:37]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:26:37]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:30:15]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:30:15]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:33:14]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:33:15]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:33:17]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:33:17]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:33:17]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:34:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:34:22]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:34:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:34:40]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:34:41]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:34:43]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:34:43]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:34:43]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:35:03]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:35:04]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:35:06]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:35:06]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:35:06]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:35:40]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:35:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:35:43]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:35:43]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:35:52]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:36:20]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:36:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:22]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:36:22]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:25]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:36:25]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:32]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:32]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:36:32]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:32]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:36:32]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:36:56]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:36:58]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:37:00]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:37:00]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:37:00]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:37:51]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:37:52]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:37:54]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:37:54]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:37:54]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:38:49]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:38:50]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:38:52]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:38:52]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:38:52]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:41:35]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:41:35]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:41:35]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:41:38]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:41:40]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:41:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:41:42]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:41:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:41:59]["Coffee Shop"] - Gracefully exited.
+[2025-10-16 12:42:01]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 12:42:02]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:02]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:42:02]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:05]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:05]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:42:05]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:07]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:42:07]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:10]["Coffee Shop"] - chanya@example.com logged in
+[2025-10-16 12:42:10]["Coffee Shop"] - Email cookie for chanya@example.com created.
+[2025-10-16 12:42:10]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:10]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:42:10]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:30]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:30]["Coffee Shop"] - User requested /.well-known/appspecific/com.chrome.devtools.json, redirecting to main page.
+[2025-10-16 12:42:30]["Coffee Shop"] - Index page viewed.
+[2025-10-16 12:42:30]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 12:42:30]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:10:12]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:10:13]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:10:13]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:10:15]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:10:15]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:10:19]["Coffee Shop"] - chanya@example.com logged in
+[2025-10-16 13:10:19]["Coffee Shop"] - Email cookie for chanya@example.com created.
+[2025-10-16 13:10:19]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:10:19]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:10:19]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:11:38]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:11:38]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:11:38]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:11:42]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:11:42]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:11:47]["Coffee Shop"] - chanya@example.com logged in
+[2025-10-16 13:11:47]["Coffee Shop"] - Email cookie for chanya@example.com created.
+[2025-10-16 13:11:47]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:11:47]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:11:47]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:22:50]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:22:50]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:22:50]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:23:02]["Coffee Shop"] - Running @ http://localhost:1942/
+[2025-10-16 13:23:04]["Coffee Shop"] - Index page viewed.
+[2025-10-16 13:23:04]["Coffee Shop"] - User requested /favicon.ico, redirecting to main page.
+[2025-10-16 13:23:04]["Coffee Shop"] - Index page viewed.
